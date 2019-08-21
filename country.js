@@ -1,11 +1,5 @@
-'use strict';
-
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
-
 var countrySchema = Schema({
     name: String,
-    description: String
+    description: String,
+    code: String
 })
-
-module.exports = mongoose.model('module', moduleSchema);
